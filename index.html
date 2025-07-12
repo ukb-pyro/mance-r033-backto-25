@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KM + Coeff Models</title>
+    <link href="/fire/css/style.css" rel="stylesheet">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Kaplan–Meier + Donor vs Control Model</h1>
+    <div id="plotDiv"></div>
+    <div id="toggle">
+        <button data-type="both" onclick="loadData('both')">Both Curves</button>
+        <button data-type="donor" onclick="loadData('donor')">Donor Only</button>
+        <button data-type="control" onclick="loadData('control')">Control Only</button>
+    </div>
+    <div id="betaDiv"></div>
+    <script src="/fire/js/plot.js"></script>
+</body>
+</html>

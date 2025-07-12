@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: mance-r033-backto-25
+    env: python
+    plan: free
+    region: oregon
+    buildCommand: |
+      python3 -m venv venv
+      source venv/bin/activate
+      pip install --upgrade pip
+      pip install -r requirements.txt
+      python3 origins.py
+    startCommand: gunicorn app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9
+      - key: FLASK_ENV
+        value: production
