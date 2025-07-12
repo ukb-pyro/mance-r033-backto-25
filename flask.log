@@ -10,3 +10,9 @@
  * Debugger is active!
  * Debugger PIN: 367-108-544
 127.0.0.1 - - [12/Jul/2025 10:33:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Jul/2025 10:33:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Jul/2025 10:33:48] "GET /fire/js/plot.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Jul/2025 10:33:48] "GET /fire/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [12/Jul/2025 10:33:48] "GET /fire/data/donor_beta_synth.csv HTTP/1.1" 200 -
+127.0.0.1 - - [12/Jul/2025 10:33:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Jul/2025 10:33:48] "GET /fire/data/control_beta_synth.csv HTTP/1.1" 200 -
